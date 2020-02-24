@@ -1,0 +1,15 @@
+l=['chair','height','racket','touch','tunic','cereal','water']
+l1=[]
+l1.append(len(l[0])):
+del l[0]
+for i in range(len(1)):
+  a=l1[i]
+  s=a[-1]
+  for j in range(len(l)):
+      b=l[j]
+      s1=b[0]
+      if(s==s1):
+          l1.append(l[j])
+          del l[j]
+          break
+ print(l1)
