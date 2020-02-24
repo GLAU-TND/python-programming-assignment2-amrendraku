@@ -1,0 +1,10 @@
+a=int(input())
+a=str(bin(a))
+b=[]
+for i in range (2,len(a)):
+    if a[i]=='1':
+        c+=1
+    else:
+        b.append(c)
+        c=0
+print(max(b))
